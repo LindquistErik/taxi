@@ -61,8 +61,8 @@ describe Taxi do
   it "has plates" do
   expect{@taxi.plates}.to_not raise_error
   expect(@taxi.plates).to be_a(String)
-  # I can make sure it as both
   end
+  # I can make sure it as both
 end
 
 #
@@ -96,4 +96,6 @@ describe Taxi_service do
     expect{@taxiSeats}.to_not raise_error
     expect(@taxiSeats).to be(4)
   end
+
+
 end
